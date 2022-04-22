@@ -44,8 +44,6 @@
 
                     ***print***  *valor_hora* 
 
-
-
 # EXERCICIO EM PORTUGOL
 
 > ***algoritmo*** "TRIANGULOS"
