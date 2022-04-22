@@ -52,15 +52,96 @@
 >    L1, L2, L3: real
 >    EQ, ES : logico
 > ***inicio***
->     Escreva ("Digite o valor do primeiro lado: ")
->     Leia (L1)
->     Escreva ("Digite o valor do segundo lado: ")
->     Leia (L2)
->     Escreva ("Digite o valor do terceiro lado: ")
->     Leia (L3)
->     EQ<- (L1 = L2) E (L2 = L3)
->     EscrevaL ("O triangulo é equilátero", EQ)
->     ES<- (L1 <> L2) e (L2 <> L3) e (L1 <> L3)
->     EscrevaL ("O triangulo é escaleno", ES)
+>     
+> 
+> Escreva ("Digite o valor do primeiro lado: ")
+> 
+> Leia (L1)    
+> 
+> Escreva ("Digite o valor do segundo lado: ")
+> 
+> Leia (L2)  
+> 
+> Escreva ("Digite o valor do terceiro lado: ")
+> 
+>  Leia (L3) 
+> 
+>  EQ<- (L1 = L2) E (L2 = L3)
+> 
+>  EscrevaL ("O triangulo é equilátero", EQ)
+> 
+>  ES<- (L1 <> L2) e (L2 <> L3) e (L1 <> L3) 
+> 
+>  EscrevaL ("O triangulo é escaleno", ES)
+> 
+> 
 > 
 > ***finalgoritmo***
+
+
+
+# GIT E GITHUB
+
+*"Git é um sistema de versionamento de arquivos, e GitHub é uma plataforma digital aonde esses arquivos podem ser compartilhados com outros devs."*
+
+## PROMPT de Comando
+
+> **1 - Windows / 2 - Linux** 
+> 
+> mostrar em lista as pastas e diretórios -  **dir : ls**      
+> 
+> entrar no diretório principal do computador - **cd / : cd /**   
+> 
+> **cd** + arquivo / - entrar pasta expecifica 
+> 
+> voltar para pasta anterior - **cd ..**
+> 
+> limpar as informações na tela - **cls / clear ou Ctrl + L**
+> 
+> **Tab** - autocompleta palavras conhecidas pelo sistema 
+> 
+> criar pasta no dentro diretório atual - **mkdir + nome**
+> 
+> print texto na tela - **echo**
+> 
+> criar arquivo de texto - **echo + texto > nome + formato**
+> 
+> apaga pastas e arquivos dentro do diretório - **del + arquivo / pasta** (apenas no Windows)
+> 
+> apagar todo o diretório - **rmdir + pasta / arquivo + /S /Q** 
+> 
+> apagar no **Linux** - **rm -rf + pasta / arquivo /**
+> 
+> voltar aos comandos já utilizados - **seta para cima**
+
+# COMANDOS PARA CRIAR REPOSITÓRIO NO GIT E GITHUB
+
+> - **branch -** é uma ramificação da linha principal
+> 
+> - **commit -** são uma forma de salvar o estado atual do arquivo
+> 
+> - **merge** - mesclar duas ou mais **Branch** em uma nova
+> 
+> - **remote -** arquivos armazenados no sistema remoto 
+> 
+> - **push -** pega os arquivos e manda para o repositório remoto
+> 
+> - **pull -** puxar os arquivos do GitHub para o repositório local
+>   
+>   - **git init -** inicia o repositório na pasta, cria também a pasta oculta **.git**
+>   
+>   - **git add + arquivo / pasta -** manda os arquivos para **"staging"** 
+>   
+>   - **git status -** mostra detalhes do repositório
+>   
+>   - **git commit -m + "texto" -**  criar o commit para mandar para o GitHub
+>   
+>   - **git branch -m "main" -** trocar o nome da branch **master** para **main** 
+>   
+>   - **git remote add origin "link.git.https" -** adicionar um **"link"** entre o repositório local e o remoto
+>   
+>   - **Shift + insert -** cola o arquivo copiado no **Git Bash** ( **Ctrl V** não funciona )
+>   
+>   - **git push -u origin main -** leva os arquivos para o repositório do GitHub 
+
+
