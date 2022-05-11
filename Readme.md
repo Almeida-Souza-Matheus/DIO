@@ -46,39 +46,28 @@
 
 # EXERCICIO EM PORTUGOL
 
-> ***algoritmo*** "TRIANGULOS"
-> 
->  ***var***
->    L1, L2, L3: real
->    EQ, ES : logico
-> ***inicio***
->     
-> 
-> Escreva ("Digite o valor do primeiro lado: ")
-> 
-> Leia (L1)    
-> 
-> Escreva ("Digite o valor do segundo lado: ")
-> 
-> Leia (L2)  
-> 
-> Escreva ("Digite o valor do terceiro lado: ")
-> 
->  Leia (L3) 
-> 
->  EQ<- (L1 = L2) E (L2 = L3)
-> 
->  EscrevaL ("O triangulo é equilátero", EQ)
-> 
->  ES<- (L1 <> L2) e (L2 <> L3) e (L1 <> L3) 
-> 
->  EscrevaL ("O triangulo é escaleno", ES)
-> 
-> 
-> 
-> ***finalgoritmo***
-
-
+> algoritmo "MédiaAluno"
+> var
+>     N1 , N2 , MEDIA : Real
+> inicio
+>       Escreva  ("Primeira nota: ")
+>       Leia (N1)
+>       Escreva ("Segunda nota: ")
+>       Leia (N2)
+>       MEDIA <- (N1 + N2) / 2
+>       EscrevaL ("A média foi : " , MEDIA: 4:2 )
+>       Se ( MEDIA >= 6 ) entao
+>          EscrevaL("O ALUNO ESTÁ APROVADO ")
+>       Senao
+>            Se ( MEDIA >= 5) entao
+>               EscrevaL ("O ALUNO ESTÁ DE RECUPERAÇÃO ")
+>            Senao
+>                 EscrevaL ("O ALUNO FOI REPROVADO ")
+>       Fimse
+>   Fimse
+>       
+>       
+> fimalgoritmo
 
 # GIT E GITHUB
 
@@ -143,5 +132,3 @@
 >   - **Shift + insert -** cola o arquivo copiado no **Git Bash** ( **Ctrl V** não funciona )
 >   
 >   - **git push -u origin main -** leva os arquivos para o repositório do GitHub 
-
-
