@@ -46,27 +46,49 @@
 
 # EXERCICIO EM PORTUGOL
 
-> 1. algoritmo "MédiaAluno"
->    var
->        N1 , N2 , MEDIA : Real
->    inicio
->          Escreva  ("Primeira nota: ")
->          Leia (N1)
->          Escreva ("Segunda nota: ")
->          Leia (N2)
->          MEDIA <- (N1 + N2) / 2
->          EscrevaL ("A média foi : " , MEDIA: 4:2 )
->          Se ( MEDIA >= 6 ) entao
->             EscrevaL("O ALUNO ESTÁ APROVADO ")
->          Senao
->               Se ( MEDIA >= 5) entao
->                  EscrevaL ("O ALUNO ESTÁ DE RECUPERAÇÃO ")
->               Senao
->                    EscrevaL ("O ALUNO FOI REPROVADO ")
->          Fimse
->      Fimse
+> algoritmo "AlunoMédia"
+> 
+> var
+> 
+>     N1 , N2 , MEDIA :  Real
+> 
+> inicio
+> 
+>     Escreva ("Primeira nota: ")
+> 
+>     Leia (N1)
+> 
+>     Escreva ("Segunda nota: ")
+> 
+>     Leia (N2)
+> 
+>     MEDIA <- (N1 + N2)  /  2
+> 
+>     EscrevaL ("A média foi :  " , MEDIA : 4:2 )
+> 
+>     Se ( MEDIA >= 5 ) entao
+> 
+>             EscrevaL ("O ALUNO ESTÁ APROVADO")
+> 
+>     Senao
+> 
+>             Se  ( MEDIA >= 5 ) entao
+> 
+>                     EscrevaL ("O ALUNO ESTÁ DE RECUPERAÇÃO")
+> 
+>             Senao
+> 
+>                     EscrevaL ("O ALUNO FOI REPROVADO")
+> 
+>         
+> 
+>             Fimse
+> 
+>        Fimse
 > 
 > fimalgoritmo
+
+
 
 # GIT E GITHUB
 
